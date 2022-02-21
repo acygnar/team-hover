@@ -63,6 +63,9 @@
         img.src = images[i];
         i++;
       }
+      if (i === images.length) {
+        clearInterval(interval);
+      }
     }
     function backImage() {
       if (i > 0) {
