@@ -1,0 +1,48 @@
+.teams {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.team__member {
+  display: flex;
+  gap: 50px;
+}
+
+.team__member-img {
+  position: relative;
+  /* padding-top: 56.25%; */
+}
+
+.team__member-img img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 523px;
+}
+.team__member-description {
+  max-width: 628px;
+}
+.team__member-name {
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-size: 48px;
+}
+.team__member-position {
+  font-size: 24px;
+  line-height: 28px;
+}
+.team__member-txt {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
