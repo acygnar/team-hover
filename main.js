@@ -1,5 +1,5 @@
 (function () {
-  console.log("work");
+  console.log("hola");
   const images = [];
   images[0] = "img/1.jpg";
   images[1] = "img/2.jpg";
